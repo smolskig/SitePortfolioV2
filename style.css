@@ -1,0 +1,32 @@
+@font-face{
+    font-family:"imagine";
+    src: url("assets/imagine-font-regular.otf");
+}
+@font-face{
+    font-family:"graystroke";
+    src: url("assets/GRAYSTROKE.otf");
+}
+.pag1,.pag3,.pag5{
+    background-color:#456eaf;
+    color:#f2f7fa;
+}
+.pag2,.pag4,.rodape{
+    background-color:#f2f7fa;
+    color:#456eaf;
+}
+.profile{
+    border-radius:50%;
+}
+.bloco h1,h2{
+    font-family:graystroke;
+    font-size:50px;
+}
+.bloco p{
+    font-family:consolas, sans-serif;
+    font-size:20px;
+    font-weight: bold;
+}
+.bloco span{
+    font-family:imagine,sans-serif;
+    font-size:40px;
+}
