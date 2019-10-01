@@ -7,12 +7,12 @@
     src: url("assets/GRAYSTROKE.otf");
 }
 .pag1,.pag3,.pag5{
-    background-color:#456eaf;
+    background-color:rgb(82, 126, 197);
     color:#f2f7fa;
 }
 .pag2,.pag4,.rodape{
     background-color:#f2f7fa;
-    color:#456eaf;
+    color:#456EB0;
 }
 .profile{
     border-radius:50%;
