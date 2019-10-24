@@ -1,5 +1,5 @@
 @media (max-width:600px ){	
-    html, body{
+    html, body{ /*Para prevenir bug da view do navegador ao usar viewport (hv)*/
         height:100%;
         width:100%;
     }
