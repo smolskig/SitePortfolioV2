@@ -1,6 +1,15 @@
-@media (max-width:600px ){
+@media (max-width:600px ){	
+    html, body{
+        height:100%;
+        width:100%;
+    }
+    .bloco{
+        height:calc(100% + 75px);
+        width:100%;
+    }
     .bloco h1,h2{
         font-size:30px;
+        margin-top:20px;
     }
     .bloco{
         justify-content: center;
@@ -33,12 +42,13 @@
     .bloco p {
         display:none;
     }
-   
+    .rodape{
+        height:50%;
+    }
     .rodape ul{
         flex-direction:row;
         
     }
-    
     .rodape img{
         height:80px;
     }
