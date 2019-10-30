@@ -1,34 +1,28 @@
-@media (max-width:600px ){	
+@media (max-width:800px ){	
     html, body{ /*Para prevenir bug da view do navegador ao usar viewport (hv)*/
         height:100%;
         width:100%;
     }
     .bloco{
         height:calc(100% + 75px);
-        width:100%;
     }
     .bloco h1,h2{
         font-size:30px;
         margin-top:20px;
     }
-    .bloco{
-        justify-content: center;
-    }
     .bloco img{
-        height:125px;
+        height:10em;
     }
     .bloco img:hover{
-        height:150px;
+        height:15em;
         transition:0.5s;
     }
     .pag1 .profile img{
         height:100px;
     }
     .bloco ul{
-        justify-content: center;
+        justify-content: space-around;
         flex-direction: column;
-        width:auto;
-        height:auto;
         margin-top:40px;
     }
     .bloco li{
@@ -57,25 +51,15 @@
     }
 }
 
-@media (min-width:768px) and (max-width:1030px){
-    .bloco img{
-        height:210px;    
+@media (min-width:600px)and (max-width:1500px){
+    .bloco{
+        width:100%;
     }
     .bloco li{
         padding-left:5px;
     }
-    .bloco ul{
-        margin-top:100px;
-    }
     .bloco p{
-        margin-top:100px;
-        width:700px;
-    }
-    .rodape img{
-        height:200px;
-    }
-    .rodape ul{
-        margin-top:00px;
+        width:30em;
     }
     .rodape h2 p{
         margin:50px;
